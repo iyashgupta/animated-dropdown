@@ -60,16 +60,6 @@ export default function App() {
   return (
     <Fragment>
       <nav className="menu" ref={scope}>
-        <div
-          style={{
-            position: "fixed",
-            bottom: -210,
-            left: 200,
-            width: 100,
-            height: 100,
-            background: "white",
-          }}
-        />
         <motion.button
           whileTap={{ scale: 0.97 }}
           onClick={() => setIsOpen(!isOpen)}
